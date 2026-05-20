@@ -1,0 +1,232 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:#ffffff;
+}
+
+:root{
+    --hijau:#198754;
+    --hijau-gelap:#146c43;
+    --kuning:#ffc107;
+}
+
+/* SIDEBAR */
+.sidebar{
+    min-height:100vh;
+    background:linear-gradient(180deg,var(--hijau),var(--hijau-gelap));
+    padding-top:25px;
+    position:sticky;
+    top:0;
+}
+
+.sidebar h4{
+    color:white;
+    font-weight:bold;
+}
+
+.sidebar .nav-link{
+    color:rgba(255,255,255,0.9);
+    padding:12px 20px;
+    margin:5px 10px;
+    border-radius:12px;
+    transition:0.3s;
+    display:block;
+    text-align:center;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active{
+    background:var(--kuning);
+    color:#000;
+    font-weight:600;
+}
+
+/* SECTION */
+.full-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:50px 20px;
+}
+
+/* HERO */
+.hero h1{
+    font-size:48px;
+    font-weight:bold;
+    color:var(--hijau-gelap);
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+}
+
+.hero-img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* BUTTON */
+.btn-main{
+    background:var(--kuning);
+    border:none;
+    color:#000;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn-main:hover{
+    background:#e0a800;
+}
+
+/* TITLE */
+.title-green{
+    color:#146c43;
+}
+
+.payment-title{
+    color:#198754;
+    font-weight:bold;
+}
+
+/* PRODUCT */
+.product-card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.06);
+    transition:0.3s;
+    overflow:hidden;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.product-card h5{
+    color:var(--hijau);
+}
+
+.price{
+    color:#dc3545;
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* ABOUT */
+.about-card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.06);
+}
+
+/* CONTACT */
+.contact-card{
+    transition:0.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-8px);
+}
+
+.icon-box{
+    width:90px;
+    height:90px;
+    margin:auto;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:38px;
+    color:white;
+}
+
+.whatsapp{
+    background:#146c43;
+}
+
+.email{
+    background:#146c43;
+}
+
+.lokasi{
+    background:#146c43;
+}
+
+.jam{
+    background:#ffc107;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px){
+
+.row{
+    flex-direction:column;
+}
+
+.sidebar{
+    width:100%;
+    min-height:auto;
+    padding:10px;
+    z-index:999;
+}
+
+.sidebar h4{
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.sidebar .nav{
+    flex-direction:row !important;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.sidebar .nav-link{
+    padding:8px 14px;
+    margin:0;
+    font-size:14px;
+    border-radius:20px;
+}
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:30px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.hero-img{
+    width:220px;
+    height:220px;
+    margin-top:20px;
+}
+
+.btn-main{
+    width:100%;
+}
+
+.full-section{
+    min-height:auto;
+    padding:80px 15px;
+}
+
+}
