@@ -132,101 +132,1784 @@ Sistem Pembayaran
 
 </section>
 
-<section id="products" class="products-section">
-  <div class="container">
-    <h2 class="section-title">Produk Kami</h2>
-    <p class="section-sub">Klik produk untuk melihat detail lengkap.</p>
+<!-- PRODUK -->
+ <!-- PRODUK -->
+<section id="produk" class="full-section">
+    <div class="container">
 
-    <div class="products-grid">
-      <div class="product-card" onclick="openProduct('Produk 1','20 Stok','Deskripsi produk 1','Rp 120.000','images/produk1.jpg')">
-        <img src="images/produk1.jpg" alt="Produk 1" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 1</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+        <h2 class="text-center mb-5 fw-bold" style="color:#146c43;">
+            Produk Kami
+        </h2>
 
-      <div class="product-card" onclick="openProduct('Produk 2','15 Stok','Deskripsi produk 2','Rp 95.000','images/produk2.jpg')">
-        <img src="images/produk2.jpg" alt="Produk 2" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 2</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+        <div class="row g-4">
 
-      <div class="product-card" onclick="openProduct('Produk 3','10 Stok','Deskripsi produk 3','Rp 75.000','images/produk3.jpg')">
-        <img src="images/produk3.jpg" alt="Produk 3" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 3</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+            <!-- Produk 1 -->
+            <div class="col-md-4">
 
-      <div class="product-card" onclick="openProduct('Produk 4','8 Stok','Deskripsi produk 4','Rp 60.000','images/produk4.jpg')">
-        <img src="images/produk4.jpg" alt="Produk 4" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 4</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+    <div class="card product-card">
 
-      <div class="product-card" onclick="openProduct('Produk 5','12 Stok','Deskripsi produk 5','Rp 110.000','images/produk5.jpg')">
-        <img src="images/produk5.jpg" alt="Produk 5" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 5</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+        <img src="img/1.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
 
-      <div class="product-card" onclick="openProduct('Produk 6','18 Stok','Deskripsi produk 6','Rp 85.000','images/produk6.jpg')">
-        <img src="images/produk6.jpg" alt="Produk 6" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 6</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             onclick="detailProduk(
 
-      <div class="product-card" onclick="openProduct('Produk 7','14 Stok','Deskripsi produk 7','Rp 130.000','images/produk7.jpg')">
-        <img src="images/produk7.jpg" alt="Produk 7" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 7</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             'Alika (100 ML)',
 
-      <div class="product-card" onclick="openProduct('Produk 8','9 Stok','Deskripsi produk 8','Rp 145.000','images/produk8.jpg')">
-        <img src="images/produk8.jpg" alt="Produk 8" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 8</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             'Rp 77.000',
 
-      <div class="product-card" onclick="openProduct('Produk 9','11 Stok','Deskripsi produk 9','Rp 155.000','images/produk9.jpg')">
-        <img src="images/produk9.jpg" alt="Produk 9" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 9</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             '4 Botol',
 
-      <div class="product-card" onclick="openProduct('Produk 10','7 Stok','Deskripsi produk 10','Rp 165.000','images/produk10.jpg')">
-        <img src="images/produk10.jpg" alt="Produk 10" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 10</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             'Alika merupakan insektisida sistemik yang efektif mengendalikan hama penghisap pada tanaman padi, cabai, tomat, dan berbagai tanaman hortikultura.',
 
-      <div class="product-card" onclick="openProduct('Produk 11','16 Stok','Deskripsi produk 11','Rp 175.000','images/produk11.jpg')">
-        <img src="images/produk11.jpg" alt="Produk 11" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 11</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             'img/1.png'
 
-      <div class="product-card" onclick="openProduct('Produk 12','6 Stok','Deskripsi produk 12','Rp 185.000','images/produk12.jpg')">
-        <img src="images/produk12.jpg" alt="Produk 12" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 12</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+             )">
 
-      <div class="product-card" onclick="openProduct('Produk 13','13 Stok','Deskripsi produk 13','Rp 195.000','images/produk13.jpg')">
-        <img src="images/produk13.jpg" alt="Produk 13" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 13</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+        <div class="card-body text-center">
 
-      <div class="product-card" onclick="openProduct('Produk 14','5 Stok','Deskripsi produk 14','Rp 205.000','images/produk14.jpg')">
-        <img src="images/produk14.jpg" alt="Produk 14" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 14</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+            <h5>Alika (100 ML)</h5>
 
-      <div class="product-card" onclick="openProduct('Produk 15','19 Stok','Deskripsi produk 15','Rp 215.000','images/produk15.jpg')">
-        <img src="images/produk15.jpg" alt="Produk 15" class="product-image">
-        <div class="product-body"><h3 class="product-title">Produk 15</h3><p class="product-desc">Klik untuk detail lengkap</p></div>
-      </div>
+            <div class="price">
+                Rp77.000
+            </div>
+
+        </div>
+
     </div>
-  </div>
-</section>
 
-<div id="productModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeProduct()">&times;</span>
-    <img id="modalImage" src="" alt="" class="modal-image">
-    <h3 id="modalName"></h3>
-    <p><strong>Stok:</strong> <span id="modalStock"></span></p>
-    <p><strong>Deskripsi:</strong> <span id="modalDesc"></span></p>
-    <p><strong>Harga:</strong> <span id="modalPrice"></span></p>
-  </div>
 </div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+               <!-- Produk 2 -->
+            <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/2.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+             onclick="detailProduk(
+
+             'Alika (250 ML)',
+
+             'Rp 165.000',
+
+             '4 Botol',
+
+             'Alika merupakan insektisida sistemik yang efektif mengendalikan hama penghisap pada tanaman padi, cabai, tomat, dan berbagai tanaman hortikultura.',
+
+             'img/2.png'
+
+             )">
+
+        <div class="card-body text-center">
+
+            <h5>Alika (250 ML)</h5>
+
+            <div class="price">
+                Rp 165.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+            <!-- Produk 3 -->
+        
+                        <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/3.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+             onclick="detailProduk(
+
+             'Rudal (500 ML) ',
+
+             'Rp 65.000',
+
+             '4 Botol',
+
+             'Rudal merupakan herbisida untuk mengendalikan gulma berdaun lebar dan gulma rumput. Cocok digunakan pada tanaman kelapa sawit, karet, jagung, padi, tebu, serta berbagai tanaman perkebunan sesuai dosis anjuran.',
+
+             'img/3.png'
+
+             )">
+
+        <div class="card-body text-center">
+
+            <h5>Rudal (500 ML)</h5>
+
+            <div class="price">
+                Rp 65.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+            <!-- Produk 4 -->
+            <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/4.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+             onclick="detailProduk(
+
+             'Regent (100 ML)',
+
+             'Rp 58.000',
+
+             '4 Botol',
+
+             'Regent merupakan insektisida berbahan aktif fipronil yang efektif mengendalikan berbagai jenis hama pada tanaman. Cocok digunakan pada tanaman padi, jagung, cabai, tomat, bawang merah, kentang, dan tanaman hortikultura sesuai dosis anjuran.',
+
+             'img/4.png'
+
+             )">
+
+        <div class="card-body text-center">
+
+            <h5>Regent (100 ML)</h5>
+
+            <div class="price">
+                Rp 58.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Produk 5 -->
+             <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/5.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+             onclick="detailProduk(
+
+             'Regent (250 ML)',
+
+             'Rp 125.000',
+
+             '1 Botol',
+
+             'Regent merupakan insektisida berbahan aktif fipronil yang efektif mengendalikan berbagai jenis hama pada tanaman. Cocok digunakan pada tanaman padi, jagung, cabai, tomat, bawang merah, kentang, dan tanaman hortikultura sesuai dosis anjuran.',
+
+             'img/5.png'
+
+             )">
+
+        <div class="card-body text-center">
+
+            <h5>Regent (250 ML)</h5>
+
+            <div class="price">
+                Rp 125.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Produk 6 -->
+            <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/6.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+             onclick="detailProduk
+'Green Tonik 1 Liter',
+'Rp28.000',
+'30 Botol',
+'Green Tonik merupakan pupuk daun yang membantu meningkatkan pertumbuhan tanaman, menjaga daun tetap hijau, memperkuat batang, serta mendukung pembentukan bunga dan buah. Cocok digunakan pada tanaman padi, jagung, cabai, tomat, kelapa sawit, karet, kakao, dan berbagai tanaman hortikultura sesuai dosis anjuran.',
+'img/6.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Green Tonik 1 Liter</h5>
+
+            <div class="price">
+                Rp 28.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            
+
+            <!-- PRODUK 7 -->
+            <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/7.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal">
+
+             onclick="detailProduk('Gramoxone 1 Liter',
+'Rp75.000',
+'20 Botol',
+'Gramoxone merupakan herbisida kontak yang efektif mengendalikan gulma berdaun lebar, rerumputan, dan beberapa jenis gulma teki pada lahan pertanian dan perkebunan. Cocok digunakan pada tanaman kelapa sawit, karet, kakao, kopi, jagung, dan tebu sesuai dosis anjuran.',
+'img/7.png'
+)"
+            <div class="card-body text-center">
+
+            <h5>Gramoxone 1 Liter</h5>
+
+            <div class="price">
+                Rp 75.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+         
+            
+            <!-- PRODUK 8 -->
+             <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/8.png"
+            alt="Gramoxone 5 Liter">
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+            onclick="detailProduk(
+'Gramoxone 5 Liter',
+'Rp360.000',
+'1 Jerigen',
+'Gramoxone 5 Liter merupakan herbisida kontak yang efektif mengendalikan gulma berdaun lebar dan rerumputan pada lahan pertanian maupun perkebunan. Kemasan 5 liter cocok untuk penggunaan pada lahan yang lebih luas seperti kelapa sawit, karet, kakao, kopi, jagung, dan tebu sesuai dosis anjuran.',
+'img/8.png'
+)"
+               <div class="card-body text-center">
+
+            <h5>Gramoxone 5 Liter</h5>
+
+            <div class="price">
+                Rp 360.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            
+            <!-- PRODUK 9 -->
+             <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/9.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+      onclick="detailProduk(
+'Superemo 1 Liter',
+'Rp85.000',
+'18 Botol',
+'Superemox merupakan herbisida sistemik yang efektif mengendalikan gulma berdaun lebar dan rerumputan. Produk ini bekerja hingga ke akar gulma sehingga membantu menjaga kebersihan lahan pertanian dan perkebunan. Cocok digunakan pada tanaman kelapa sawit, karet, kakao, kopi, jagung, dan tebu sesuai dosis anjuran.',
+'img/9.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Superemo 1 Liter</h5>
+
+            <div class="price">
+                Rp 85.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
            
+
+
+            <!-- PRODUK 10 -->
+              <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/10.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+         onclick="detailProduk(
+'Jossone 1 Liter',
+'Rp40.000',
+'20 Botol',
+'Jossone merupakan herbisida yang efektif mengendalikan gulma berdaun lebar dan gulma rerumputan pada lahan pertanian dan perkebunan. Cocok digunakan pada tanaman kelapa sawit, karet, jagung, tebu, kakao, dan kopi sesuai dosis anjuran.',
+'img/10.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Jossone 1 Liter</h5>
+
+            <div class="price">
+                Rp 40.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+            
+            <!-- PRODUK 11 -->
+             <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/11.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+           onclick="detailProduk(
+'Jossone 5 Liter',
+'Rp180.000',
+'10 Jerigen',
+'Jossone 5 Liter merupakan herbisida untuk mengendalikan berbagai jenis gulma pada lahan pertanian dan perkebunan. Kemasan 5 liter cocok digunakan untuk penyemprotan pada lahan yang lebih luas sesuai petunjuk penggunaan.',
+'img/11.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Jossone 5 Liter</h5>
+
+            <div class="price">
+                Rp 180.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+          
+
+            <!-- PRODUK 12 -->
+               <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/12.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+           onclick="detailProduk(
+'Roundup 1 Liter',
+'Rp95.000',
+'18 Botol',
+'Roundup merupakan herbisida sistemik yang efektif mengendalikan gulma berdaun lebar, rerumputan, dan beberapa jenis gulma teki. Produk ini bekerja hingga ke akar gulma sehingga membantu menjaga kebersihan lahan pertanian dan perkebunan. Cocok digunakan pada tanaman kelapa sawit, karet, kakao, kopi, jagung, tebu, dan berbagai tanaman perkebunan sesuai dosis anjuran.',
+'img/12.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Roundup 1 Liter</h5>
+
+            <div class="price">
+                Rp 95.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+            
+            <!-- PRODUK 13 -->
+             <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/13.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+          onclick="detailProduk(
+'Kayabass 500 ML',
+'Rp170.000',
+'12 Botol',
+'Kayabass merupakan insektisida yang efektif mengendalikan berbagai jenis hama pada tanaman pertanian dan hortikultura. Cocok digunakan pada tanaman padi, cabai, tomat, bawang merah, jagung, dan berbagai tanaman hortikultura sesuai dosis anjuran.',
+'img/13.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Kayabass</h5>
+
+            <div class="price">
+                Rp 170.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+            <!-- PRODUK 14 -->
+             <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/14.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+       onclick="detailProduk(
+'Kering 1 Liter',
+'Rp75.000',
+'15 Botol',
+'Kering merupakan herbisida yang efektif mengendalikan gulma berdaun lebar dan gulma rerumputan pada lahan pertanian maupun perkebunan. Cocok digunakan pada tanaman kelapa sawit, karet, jagung, tebu, kakao, kopi, dan berbagai tanaman perkebunan sesuai dosis anjuran.',
+'img/14.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Kering 1 Liter</h5>
+
+            <div class="price">
+                Rp 75.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+          
+
+            <!-- PRODUK 15 -->
+              <div class="col-md-4">
+
+    <div class="card product-card">
+
+        <img src="img/15.png"
+             class="img-fluid"
+             style="cursor:pointer"
+             data-bs-toggle="modal"
+             data-bs-target="#produkModal"
+
+           onclick="detailProduk(
+'Bassmilang 1 Liter',
+'Rp85.000',
+'15 Botol',
+'Bassmilang merupakan herbisida yang efektif mengendalikan gulma berdaun lebar dan gulma rerumputan pada lahan pertanian maupun perkebunan. Cocok digunakan pada tanaman kelapa sawit, karet, jagung, kakao, kopi, tebu, dan berbagai tanaman perkebunan sesuai dosis anjuran.',
+'img/15.png'
+)"
+             <div class="card-body text-center">
+
+            <h5>Basmilang 1 Liter</h5>
+
+            <div class="price">
+                Rp 85.000
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="modal fade" id="produkModal">
+
+<div class="modal-dialog modal-lg modal-dialog-centered">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h4 id="modalNama"></h4>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-5">
+
+<img id="modalGambar"
+class="img-fluid rounded">
+
+</div>
+
+<div class="col-md-7">
+
+<h3 id="modalHarga"></h3>
+
+<p>
+
+<b>Stok :</b>
+
+<span id="modalStok"></span>
+
+</p>
+
+<h5>Deskripsi</h5>
+
+<p id="modalDeskripsi"></p>
+
+<a href="https://wa.me/6282358374235"
+
+class="btn btn-success"
+
+target="_blank">
+
+Pesan Sekarang
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+            <script>
+
+function detailProduk(nama,harga,stok,deskripsi,gambar){
+
+document.getElementById("modalNama").innerHTML=nama;
+
+document.getElementById("modalHarga").innerHTML=harga;
+
+document.getElementById("modalStok").innerHTML=stok;
+
+document.getElementById("modalDeskripsi").innerHTML=deskripsi;
+
+document.getElementById("modalGambar").src=gambar;
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </section>
 
 
